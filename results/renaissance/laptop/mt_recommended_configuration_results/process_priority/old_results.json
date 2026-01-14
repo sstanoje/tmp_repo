@@ -1,0 +1,106 @@
+[
+    {
+        "benchmark": "akka-uct",
+        "stdev(%)": 2.1410127910441763,
+        "RMAD(%)": 1.3924258578198259,
+        "avg time": 11457.71048,
+        "median": 11447.1445,
+        "normal distribution": true
+    },
+    {
+        "benchmark": "finagle-http",
+        "stdev(%)": 1.1492444247272908,
+        "RMAD(%)": 0.7223778948174907,
+        "avg time": 6134.27095,
+        "median": 6134.67,
+        "normal distribution": true
+    },
+    {
+        "benchmark": "fj-kmeans",
+        "stdev(%)": 1.373109006145603,
+        "RMAD(%)": 1.0732484915396872,
+        "avg time": 2526.18659,
+        "median": 2524.3455,
+        "normal distribution": false
+    },
+    {
+        "benchmark": "future-genetic",
+        "stdev(%)": 1.4305439426193116,
+        "RMAD(%)": 0.7145034911685073,
+        "avg time": 1098.53265,
+        "median": 1097.1255,
+        "normal distribution": false
+    },
+    {
+        "benchmark": "mnemonics",
+        "stdev(%)": 0.24944053593438886,
+        "RMAD(%)": 0.15327534216764424,
+        "avg time": 2716.68157,
+        "median": 2715.701,
+        "normal distribution": false
+    },
+    {
+        "benchmark": "par-mnemonics",
+        "stdev(%)": 3.506481440109537,
+        "RMAD(%)": 0.48530478833879853,
+        "avg time": 1891.48734,
+        "median": 1872.2255,
+        "normal distribution": false
+    },
+    {
+        "benchmark": "philosophers",
+        "stdev(%)": 3.9488769970964315,
+        "RMAD(%)": 2.324975210680622,
+        "avg time": 4532.16757,
+        "median": 4592.199500000001,
+        "normal distribution": false
+    },
+    {
+        "benchmark": "reactors",
+        "stdev(%)": 8.044134179598386,
+        "RMAD(%)": 5.266668443839781,
+        "avg time": 11606.73868,
+        "median": 11516.417000000001,
+        "normal distribution": true
+    },
+    {
+        "benchmark": "rx-scrabble",
+        "stdev(%)": 1.358925502049866,
+        "RMAD(%)": 0.37957570715473676,
+        "avg time": 96.35612,
+        "median": 96.16,
+        "normal distribution": false
+    },
+    {
+        "benchmark": "scala-doku",
+        "stdev(%)": 0.4736086195187216,
+        "RMAD(%)": 0.09831255198819004,
+        "avg time": 1197.88075,
+        "median": 1196.185,
+        "normal distribution": false
+    },
+    {
+        "benchmark": "scala-kmeans",
+        "stdev(%)": 2.026406976960808,
+        "RMAD(%)": 0.8487620387879792,
+        "avg time": 218.64341,
+        "median": 216.0205,
+        "normal distribution": false
+    },
+    {
+        "benchmark": "scala-stm-bench7",
+        "stdev(%)": 1.4039278875246186,
+        "RMAD(%)": 1.0734668899155901,
+        "avg time": 1052.35721,
+        "median": 1052.338,
+        "normal distribution": false
+    },
+    {
+        "benchmark": "scrabble",
+        "stdev(%)": 1.5838317758041793,
+        "RMAD(%)": 0.8745535312303095,
+        "avg time": 133.7411,
+        "median": 133.26799999999997,
+        "normal distribution": false
+    }
+]

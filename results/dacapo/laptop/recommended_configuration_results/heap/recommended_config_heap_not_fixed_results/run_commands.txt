@@ -1,0 +1,6 @@
+taskset -c 3 nice -n -20 ./fop -Duser.home=$PATH_TO_HOME fop -n 105 -s default --preserve -Djava.home=$PATH_TO_LABS_JDK
+taskset -c 3 nice -n -20 ./luindex -Duser.home=$PATH_TO_HOME luindex -n 105 -s default --preserve -Dorg.apache.lucene.store.MMapDirectory.enableMemorySegments=false --no-validation
+taskset -c 3 nice -n -20 ./lusearch -Duser.home=$PATH_TO_HOME lusearch -n 105 -s default --preserve -Dorg.apache.lucene.store.MMapDirectory.enableMemorySegments=false --no-validation
+taskset -c 3 nice -n -20 ./pmd -Duser.home=$PATH_TO_HOME pmd -n 105 -s default --preserve --no-validation
+taskset -c 3 nice -n -20 ./sunflow -Duser.home=$PATH_TO_HOME sunflow -n 105 -s default
+taskset -c 3 nice -n -20 ./xalan -Duser.home=$PATH_TO_HOME xalan -n 105 -s default
