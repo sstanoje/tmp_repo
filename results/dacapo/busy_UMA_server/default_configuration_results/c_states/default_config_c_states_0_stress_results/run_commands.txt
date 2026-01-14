@@ -1,0 +1,6 @@
+./fop -Duser.home=$PATH_TO_HOME fop -n 105 -s default --preserve -Djava.home=$PATH_TO_LABS_JDK
+./luindex -Duser.home=$PATH_TO_HOME luindex -n 105 -s default --preserve -Dorg.apache.lucene.store.MMapDirectory.enableMemorySegments=false --no-validation
+./lusearch -Duser.home=$PATH_TO_HOME lusearch -n 105 -s default --preserve -Dorg.apache.lucene.store.MMapDirectory.enableMemorySegments=false --no-validation
+./pmd -Duser.home=$PATH_TO_HOME pmd -n 105 -s default --preserve --no-validation
+./sunflow -Duser.home=$PATH_TO_HOME sunflow -n 105 -s default
+./xalan -Duser.home=$PATH_TO_HOME xalan -n 105 -s default

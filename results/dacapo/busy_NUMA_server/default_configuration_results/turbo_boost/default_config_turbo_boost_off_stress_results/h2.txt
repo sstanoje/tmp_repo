@@ -1,0 +1,1894 @@
+Using scaled threading model. 32 processors detected, 32 threads used to drive the workload, in a possible range of [1,1024]
+Version: h2 2.2.220 derby 10.15.2.0 (use -p to print nominal benchmark stats)
+Preparing the H2 database...
+TPCC configuration: scale: 16, terminals: 32, transactions: 100000
+===== DaCapo unknown h2 starting warmup 1 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 1 in 28314 msec =====
+===== DaCapo processed 100000 requests in 28310 msec, 3532 requests per second =====
+===== DaCapo tail latency, simple: 50% 724 usec, 90% 9584 usec, 99% 99770 usec, 99.9% 1540673 usec, 99.99% 1641406 usec, max 1677881 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 2117 usec, 90% 17805 usec, 99% 99778 usec, 99.9% 1540673 usec, 99.99% 1641406 usec, max 1677881 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 761 usec, 90% 11702 usec, 99% 150953 usec, 99.9% 1540673 usec, 99.99% 1641406 usec, max 1677881 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 2 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 2 in 31033 msec =====
+===== DaCapo processed 100000 requests in 31031 msec, 3222 requests per second =====
+===== DaCapo tail latency, simple: 50% 727 usec, 90% 10985 usec, 99% 104646 usec, 99.9% 1354503 usec, 99.99% 2137532 usec, max 2333577 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 2269 usec, 90% 17968 usec, 99% 104656 usec, 99.9% 1354503 usec, 99.99% 2137532 usec, max 2333577 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 1044 usec, 90% 66777 usec, 99% 724475 usec, 99.9% 1354503 usec, 99.99% 2137532 usec, max 2333577 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 3 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 3 in 26109 msec =====
+===== DaCapo processed 100000 requests in 26107 msec, 3830 requests per second =====
+===== DaCapo tail latency, simple: 50% 731 usec, 90% 9960 usec, 99% 90572 usec, 99.9% 1181870 usec, 99.99% 2016858 usec, max 2037325 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 2046 usec, 90% 15943 usec, 99% 91279 usec, 99.9% 1181870 usec, 99.99% 2016858 usec, max 2037325 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 1050 usec, 90% 39900 usec, 99% 407658 usec, 99.9% 1181870 usec, 99.99% 2016858 usec, max 2037325 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 4 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 4 in 26597 msec =====
+===== DaCapo processed 100000 requests in 26595 msec, 3760 requests per second =====
+===== DaCapo tail latency, simple: 50% 731 usec, 90% 10493 usec, 99% 95051 usec, 99.9% 1115770 usec, 99.99% 2097548 usec, max 2118680 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 2214 usec, 90% 17180 usec, 99% 95236 usec, 99.9% 1115770 usec, 99.99% 2097548 usec, max 2118680 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 1150 usec, 90% 102512 usec, 99% 357951 usec, 99.9% 1115770 usec, 99.99% 2097548 usec, max 2118680 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 5 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 5 in 27608 msec =====
+===== DaCapo processed 100000 requests in 27606 msec, 3622 requests per second =====
+===== DaCapo tail latency, simple: 50% 703 usec, 90% 10554 usec, 99% 97731 usec, 99.9% 1443421 usec, 99.99% 2234411 usec, max 2299598 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 2179 usec, 90% 16395 usec, 99% 97742 usec, 99.9% 1443421 usec, 99.99% 2234411 usec, max 2308821 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 921 usec, 90% 39964 usec, 99% 836646 usec, 99.9% 1443421 usec, 99.99% 2234411 usec, max 2299598 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 6 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 6 in 27136 msec =====
+===== DaCapo processed 100000 requests in 27134 msec, 3685 requests per second =====
+===== DaCapo tail latency, simple: 50% 721 usec, 90% 10011 usec, 99% 93579 usec, 99.9% 1218240 usec, 99.99% 2126694 usec, max 2149177 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 2157 usec, 90% 15305 usec, 99% 93579 usec, 99.9% 1218240 usec, 99.99% 2126694 usec, max 2149177 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 929 usec, 90% 35806 usec, 99% 916277 usec, 99.9% 1218240 usec, 99.99% 2126694 usec, max 2149177 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 7 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 7 in 27123 msec =====
+===== DaCapo processed 100000 requests in 27120 msec, 3687 requests per second =====
+===== DaCapo tail latency, simple: 50% 741 usec, 90% 10612 usec, 99% 94188 usec, 99.9% 1684641 usec, 99.99% 2074556 usec, max 2132404 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 2285 usec, 90% 15675 usec, 99% 94188 usec, 99.9% 1684641 usec, 99.99% 2074556 usec, max 2132404 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 1192 usec, 90% 145453 usec, 99% 805142 usec, 99.9% 1684641 usec, 99.99% 2074556 usec, max 2132404 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 8 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 8 in 28036 msec =====
+===== DaCapo processed 100000 requests in 28034 msec, 3567 requests per second =====
+===== DaCapo tail latency, simple: 50% 731 usec, 90% 11162 usec, 99% 104471 usec, 99.9% 1195257 usec, 99.99% 1768605 usec, max 1944956 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 2213 usec, 90% 18626 usec, 99% 104471 usec, 99.9% 1195257 usec, 99.99% 1768605 usec, max 1944956 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 1306 usec, 90% 116445 usec, 99% 589772 usec, 99.9% 1195257 usec, 99.99% 1768605 usec, max 1944956 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 9 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 9 in 21313 msec =====
+===== DaCapo processed 100000 requests in 21311 msec, 4692 requests per second =====
+===== DaCapo tail latency, simple: 50% 735 usec, 90% 8158 usec, 99% 75182 usec, 99.9% 1159884 usec, 99.99% 1772533 usec, max 1908478 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 2307 usec, 90% 21057 usec, 99% 75192 usec, 99.9% 1159884 usec, 99.99% 1772533 usec, max 1908478 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 41149 usec, 90% 989638 usec, 99% 1297950 usec, 99.9% 1355148 usec, 99.99% 1772533 usec, max 1908478 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 10 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 10 in 19460 msec =====
+===== DaCapo processed 100000 requests in 19458 msec, 5139 requests per second =====
+===== DaCapo tail latency, simple: 50% 745 usec, 90% 7092 usec, 99% 53175 usec, 99.9% 1150382 usec, 99.99% 2368815 usec, max 2384226 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 2191 usec, 90% 23042 usec, 99% 53990 usec, 99.9% 1150382 usec, 99.99% 2368815 usec, max 2384226 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 1619 usec, 90% 169012 usec, 99% 489385 usec, 99.9% 1150382 usec, 99.99% 2368815 usec, max 2384226 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 11 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 11 in 20818 msec =====
+===== DaCapo processed 100000 requests in 20815 msec, 4804 requests per second =====
+===== DaCapo tail latency, simple: 50% 706 usec, 90% 9281 usec, 99% 91210 usec, 99.9% 868477 usec, 99.99% 1572155 usec, max 1586946 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 2452 usec, 90% 19662 usec, 99% 91270 usec, 99.9% 868477 usec, 99.99% 1572155 usec, max 1586946 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 787 usec, 90% 14494 usec, 99% 277741 usec, 99.9% 868477 usec, 99.99% 1572155 usec, max 1586946 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 12 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 12 in 17530 msec =====
+===== DaCapo processed 100000 requests in 17527 msec, 5705 requests per second =====
+===== DaCapo tail latency, simple: 50% 692 usec, 90% 8747 usec, 99% 68041 usec, 99.9% 242649 usec, 99.99% 1284738 usec, max 1305672 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 1940 usec, 90% 25558 usec, 99% 69306 usec, 99.9% 242649 usec, 99.99% 1284738 usec, max 1305672 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 1238 usec, 90% 110595 usec, 99% 358731 usec, 99.9% 443801 usec, 99.99% 1284738 usec, max 1305672 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 13 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 13 in 13861 msec =====
+===== DaCapo processed 100000 requests in 13857 msec, 7216 requests per second =====
+===== DaCapo tail latency, simple: 50% 729 usec, 90% 6309 usec, 99% 57939 usec, 99.9% 206326 usec, 99.99% 2139132 usec, max 2150453 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 1412 usec, 90% 8933 usec, 99% 57988 usec, 99.9% 206326 usec, 99.99% 2139132 usec, max 2150453 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 854 usec, 90% 9654 usec, 99% 183459 usec, 99.9% 237839 usec, 99.99% 2139132 usec, max 2150453 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 14 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 14 in 11615 msec =====
+===== DaCapo processed 100000 requests in 11612 msec, 8611 requests per second =====
+===== DaCapo tail latency, simple: 50% 664 usec, 90% 7170 usec, 99% 56121 usec, 99.9% 212340 usec, 99.99% 818754 usec, max 830225 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 1611 usec, 90% 9075 usec, 99% 56406 usec, 99.9% 212340 usec, 99.99% 818754 usec, max 830225 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 975 usec, 90% 27712 usec, 99% 193619 usec, 99.9% 222785 usec, 99.99% 818754 usec, max 830225 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 15 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 15 in 12204 msec =====
+===== DaCapo processed 100000 requests in 12201 msec, 8196 requests per second =====
+===== DaCapo tail latency, simple: 50% 698 usec, 90% 7241 usec, 99% 57966 usec, 99.9% 185082 usec, 99.99% 841831 usec, max 861901 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 1581 usec, 90% 9426 usec, 99% 58352 usec, 99.9% 185082 usec, 99.99% 841831 usec, max 861901 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 166045 usec, 90% 578843 usec, 99% 778836 usec, 99.9% 838032 usec, 99.99% 849903 usec, max 861901 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 16 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 16 in 12102 msec =====
+===== DaCapo processed 100000 requests in 12100 msec, 8264 requests per second =====
+===== DaCapo tail latency, simple: 50% 698 usec, 90% 6605 usec, 99% 55200 usec, 99.9% 189142 usec, 99.99% 1416256 usec, max 1443760 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 1513 usec, 90% 10658 usec, 99% 55437 usec, 99.9% 189142 usec, 99.99% 1416256 usec, max 1443760 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 2146 usec, 90% 269598 usec, 99% 588441 usec, 99.9% 646810 usec, 99.99% 1416256 usec, max 1443760 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 17 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 17 in 12474 msec =====
+===== DaCapo processed 100000 requests in 12472 msec, 8017 requests per second =====
+===== DaCapo tail latency, simple: 50% 694 usec, 90% 6490 usec, 99% 54495 usec, 99.9% 183736 usec, 99.99% 1465629 usec, max 1482908 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 1590 usec, 90% 11001 usec, 99% 54796 usec, 99.9% 183736 usec, 99.99% 1465629 usec, max 1482908 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 2980 usec, 90% 404864 usec, 99% 591890 usec, 99.9% 648906 usec, 99.99% 1465629 usec, max 1482908 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 18 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 18 in 12120 msec =====
+===== DaCapo processed 100000 requests in 12118 msec, 8252 requests per second =====
+===== DaCapo tail latency, simple: 50% 679 usec, 90% 6459 usec, 99% 57914 usec, 99.9% 234218 usec, 99.99% 1737412 usec, max 1768060 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 1694 usec, 90% 9155 usec, 99% 58042 usec, 99.9% 234218 usec, 99.99% 1737412 usec, max 1768060 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 1085 usec, 90% 74588 usec, 99% 297702 usec, 99.9% 345538 usec, 99.99% 1737412 usec, max 1768060 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 19 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 19 in 12124 msec =====
+===== DaCapo processed 100000 requests in 12121 msec, 8250 requests per second =====
+===== DaCapo tail latency, simple: 50% 705 usec, 90% 6539 usec, 99% 58445 usec, 99.9% 188648 usec, 99.99% 1564816 usec, max 1607229 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 1542 usec, 90% 8744 usec, 99% 58555 usec, 99.9% 188648 usec, 99.99% 1564816 usec, max 1607229 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 1760 usec, 90% 200398 usec, 99% 483901 usec, 99.9% 503623 usec, 99.99% 1564816 usec, max 1607229 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 20 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 20 in 12601 msec =====
+===== DaCapo processed 100000 requests in 12598 msec, 7937 requests per second =====
+===== DaCapo tail latency, simple: 50% 700 usec, 90% 6519 usec, 99% 58324 usec, 99.9% 151499 usec, 99.99% 2605241 usec, max 2621617 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 1588 usec, 90% 8052 usec, 99% 58471 usec, 99.9% 151499 usec, 99.99% 2605241 usec, max 2621617 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 802 usec, 90% 9896 usec, 99% 170452 usec, 99.9% 226112 usec, 99.99% 2605241 usec, max 2621617 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 21 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 21 in 10161 msec =====
+===== DaCapo processed 100000 requests in 10159 msec, 9843 requests per second =====
+===== DaCapo tail latency, simple: 50% 705 usec, 90% 6373 usec, 99% 30053 usec, 99.9% 200096 usec, 99.99% 277822 usec, max 290803 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 1637 usec, 90% 7984 usec, 99% 32734 usec, 99.9% 200096 usec, 99.99% 277822 usec, max 290803 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 809 usec, 90% 8877 usec, 99% 98674 usec, 99.9% 200096 usec, 99.99% 277822 usec, max 290803 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 22 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 22 in 10294 msec =====
+===== DaCapo processed 100000 requests in 10291 msec, 9717 requests per second =====
+===== DaCapo tail latency, simple: 50% 700 usec, 90% 6152 usec, 99% 60768 usec, 99.9% 205051 usec, 99.99% 321167 usec, max 339477 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 1684 usec, 90% 8215 usec, 99% 60768 usec, 99.9% 205051 usec, 99.99% 321167 usec, max 339477 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 1533 usec, 90% 101165 usec, 99% 289325 usec, 99.9% 306086 usec, 99.99% 324573 usec, max 346827 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 23 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 23 in 10884 msec =====
+===== DaCapo processed 100000 requests in 10881 msec, 9190 requests per second =====
+===== DaCapo tail latency, simple: 50% 708 usec, 90% 6391 usec, 99% 56912 usec, 99.9% 191223 usec, 99.99% 256602 usec, max 291268 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 1554 usec, 90% 8957 usec, 99% 56992 usec, 99.9% 191223 usec, 99.99% 256602 usec, max 291268 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 1422 usec, 90% 62011 usec, 99% 213350 usec, 99.9% 230928 usec, 99.99% 261791 usec, max 291268 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 24 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 24 in 12905 msec =====
+===== DaCapo processed 100000 requests in 12902 msec, 7750 requests per second =====
+===== DaCapo tail latency, simple: 50% 723 usec, 90% 6878 usec, 99% 55974 usec, 99.9% 177989 usec, 99.99% 1528266 usec, max 1535991 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 1612 usec, 90% 10193 usec, 99% 56214 usec, 99.9% 177989 usec, 99.99% 1528266 usec, max 1535991 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 723 usec, 90% 6878 usec, 99% 55974 usec, 99.9% 177989 usec, 99.99% 1528266 usec, max 1535991 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 25 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 25 in 10291 msec =====
+===== DaCapo processed 100000 requests in 10289 msec, 9719 requests per second =====
+===== DaCapo tail latency, simple: 50% 680 usec, 90% 6881 usec, 99% 41085 usec, 99.9% 188061 usec, 99.99% 253590 usec, max 304570 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 1786 usec, 90% 9865 usec, 99% 43889 usec, 99.9% 188061 usec, 99.99% 253590 usec, max 304570 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 10450 usec, 90% 235087 usec, 99% 343748 usec, 99.9% 373676 usec, 99.99% 388905 usec, max 406642 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 26 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 26 in 10676 msec =====
+===== DaCapo processed 100000 requests in 10674 msec, 9368 requests per second =====
+===== DaCapo tail latency, simple: 50% 689 usec, 90% 6725 usec, 99% 56868 usec, 99.9% 173446 usec, 99.99% 239400 usec, max 258503 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 1606 usec, 90% 8392 usec, 99% 56977 usec, 99.9% 173446 usec, 99.99% 239400 usec, max 258503 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 1087 usec, 90% 34492 usec, 99% 187114 usec, 99.9% 204143 usec, 99.99% 239400 usec, max 258503 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 27 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 27 in 12305 msec =====
+===== DaCapo processed 100000 requests in 12302 msec, 8128 requests per second =====
+===== DaCapo tail latency, simple: 50% 706 usec, 90% 6896 usec, 99% 58860 usec, 99.9% 208417 usec, 99.99% 1300937 usec, max 1333662 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 1797 usec, 90% 9400 usec, 99% 58892 usec, 99.9% 208417 usec, 99.99% 1300937 usec, max 1333662 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 1637 usec, 90% 202607 usec, 99% 343755 usec, 99.9% 378395 usec, 99.99% 1300937 usec, max 1333662 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 28 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 28 in 10675 msec =====
+===== DaCapo processed 100000 requests in 10672 msec, 9370 requests per second =====
+===== DaCapo tail latency, simple: 50% 655 usec, 90% 7202 usec, 99% 27072 usec, 99.9% 270910 usec, 99.99% 359339 usec, max 382234 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 1822 usec, 90% 10194 usec, 99% 29978 usec, 99.9% 270910 usec, 99.99% 359339 usec, max 382234 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 1382 usec, 90% 44164 usec, 99% 271715 usec, 99.9% 318212 usec, 99.99% 360382 usec, max 382234 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 29 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 29 in 9594 msec =====
+===== DaCapo processed 100000 requests in 9592 msec, 10425 requests per second =====
+===== DaCapo tail latency, simple: 50% 695 usec, 90% 6221 usec, 99% 31096 usec, 99.9% 161108 usec, 99.99% 241680 usec, max 273197 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 1718 usec, 90% 8756 usec, 99% 34086 usec, 99.9% 161108 usec, 99.99% 241680 usec, max 273197 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 5581 usec, 90% 251076 usec, 99% 368289 usec, 99.9% 399916 usec, 99.99% 408006 usec, max 421915 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 30 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 30 in 9696 msec =====
+===== DaCapo processed 100000 requests in 9694 msec, 10315 requests per second =====
+===== DaCapo tail latency, simple: 50% 665 usec, 90% 6324 usec, 99% 23019 usec, 99.9% 218935 usec, 99.99% 333449 usec, max 368650 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 1818 usec, 90% 9101 usec, 99% 27145 usec, 99.9% 218935 usec, 99.99% 333449 usec, max 368650 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 1722 usec, 90% 150828 usec, 99% 284360 usec, 99.9% 298764 usec, 99.99% 336197 usec, max 368650 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 31 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 31 in 9485 msec =====
+===== DaCapo processed 100000 requests in 9483 msec, 10545 requests per second =====
+===== DaCapo tail latency, simple: 50% 681 usec, 90% 6183 usec, 99% 24242 usec, 99.9% 177952 usec, 99.99% 330066 usec, max 348489 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 1823 usec, 90% 8492 usec, 99% 27548 usec, 99.9% 177952 usec, 99.99% 330066 usec, max 348489 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 4363 usec, 90% 317081 usec, 99% 462815 usec, 99.9% 499724 usec, 99.99% 515187 usec, max 531526 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 32 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 32 in 10606 msec =====
+===== DaCapo processed 100000 requests in 10596 msec, 9437 requests per second =====
+===== DaCapo tail latency, simple: 50% 673 usec, 90% 7069 usec, 99% 28664 usec, 99.9% 218150 usec, 99.99% 253242 usec, max 301520 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 1836 usec, 90% 9033 usec, 99% 30790 usec, 99.9% 218150 usec, 99.99% 253242 usec, max 301520 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 1133 usec, 90% 95434 usec, 99% 260199 usec, 99.9% 309146 usec, 99.99% 322819 usec, max 347250 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 33 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 33 in 10638 msec =====
+===== DaCapo processed 100000 requests in 10636 msec, 9402 requests per second =====
+===== DaCapo tail latency, simple: 50% 674 usec, 90% 6890 usec, 99% 28800 usec, 99.9% 221660 usec, 99.99% 290444 usec, max 360121 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 1804 usec, 90% 9018 usec, 99% 31002 usec, 99.9% 221660 usec, 99.99% 290444 usec, max 360121 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 709 usec, 90% 7985 usec, 99% 69139 usec, 99.9% 221660 usec, 99.99% 290444 usec, max 360121 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 34 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 34 in 9626 msec =====
+===== DaCapo processed 100000 requests in 9623 msec, 10391 requests per second =====
+===== DaCapo tail latency, simple: 50% 643 usec, 90% 6753 usec, 99% 25604 usec, 99.9% 216337 usec, 99.99% 293279 usec, max 341072 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 2001 usec, 90% 10285 usec, 99% 28756 usec, 99.9% 216337 usec, 99.99% 293279 usec, max 341072 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 2366 usec, 90% 165745 usec, 99% 411851 usec, 99.9% 427228 usec, 99.99% 451311 usec, max 493506 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 35 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 35 in 9425 msec =====
+===== DaCapo processed 100000 requests in 9422 msec, 10613 requests per second =====
+===== DaCapo tail latency, simple: 50% 687 usec, 90% 6192 usec, 99% 24176 usec, 99.9% 186513 usec, 99.99% 351041 usec, max 380504 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 1878 usec, 90% 8863 usec, 99% 26988 usec, 99.9% 186513 usec, 99.99% 351041 usec, max 380504 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 1270 usec, 90% 52207 usec, 99% 110582 usec, 99.9% 186513 usec, 99.99% 351041 usec, max 380504 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 36 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 36 in 9496 msec =====
+===== DaCapo processed 100000 requests in 9489 msec, 10538 requests per second =====
+===== DaCapo tail latency, simple: 50% 638 usec, 90% 6741 usec, 99% 22526 usec, 99.9% 211663 usec, 99.99% 327017 usec, max 344158 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 1974 usec, 90% 9266 usec, 99% 25682 usec, 99.9% 211663 usec, 99.99% 327017 usec, max 344158 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 2669 usec, 90% 261397 usec, 99% 467442 usec, 99.9% 482340 usec, 99.99% 498036 usec, max 518872 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 37 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 37 in 9476 msec =====
+===== DaCapo processed 100000 requests in 9472 msec, 10557 requests per second =====
+===== DaCapo tail latency, simple: 50% 676 usec, 90% 6255 usec, 99% 21688 usec, 99.9% 188628 usec, 99.99% 467331 usec, max 486682 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 1900 usec, 90% 8471 usec, 99% 24598 usec, 99.9% 188628 usec, 99.99% 467331 usec, max 486682 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 1009 usec, 90% 19548 usec, 99% 164978 usec, 99.9% 203855 usec, 99.99% 467331 usec, max 486682 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 38 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 38 in 9381 msec =====
+===== DaCapo processed 100000 requests in 9378 msec, 10663 requests per second =====
+===== DaCapo tail latency, simple: 50% 677 usec, 90% 6056 usec, 99% 20858 usec, 99.9% 208310 usec, 99.99% 373865 usec, max 399357 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 1771 usec, 90% 8377 usec, 99% 24473 usec, 99.9% 208310 usec, 99.99% 373865 usec, max 399357 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 1518 usec, 90% 127122 usec, 99% 181208 usec, 99.9% 209931 usec, 99.99% 373865 usec, max 399357 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 39 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 39 in 10322 msec =====
+===== DaCapo processed 100000 requests in 10319 msec, 9690 requests per second =====
+===== DaCapo tail latency, simple: 50% 654 usec, 90% 6140 usec, 99% 20857 usec, 99.9% 323428 usec, 99.99% 1192410 usec, max 1240132 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 1820 usec, 90% 7803 usec, 99% 23477 usec, 99.9% 323428 usec, 99.99% 1192410 usec, max 1242732 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 115450 usec, 90% 668623 usec, 99% 1000947 usec, 99.9% 1051248 usec, 99.99% 1192410 usec, max 1240132 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 40 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 40 in 9685 msec =====
+===== DaCapo processed 100000 requests in 9675 msec, 10335 requests per second =====
+===== DaCapo tail latency, simple: 50% 654 usec, 90% 6671 usec, 99% 24603 usec, 99.9% 209156 usec, 99.99% 395828 usec, max 421180 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 1834 usec, 90% 8885 usec, 99% 27355 usec, 99.9% 209156 usec, 99.99% 395828 usec, max 421180 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 2200 usec, 90% 121145 usec, 99% 243547 usec, 99.9% 288188 usec, 99.99% 395828 usec, max 421180 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 41 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 41 in 9066 msec =====
+===== DaCapo processed 100000 requests in 9064 msec, 11032 requests per second =====
+===== DaCapo tail latency, simple: 50% 689 usec, 90% 6139 usec, 99% 21768 usec, 99.9% 199353 usec, 99.99% 668151 usec, max 700231 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 1835 usec, 90% 8915 usec, 99% 25053 usec, 99.9% 199353 usec, 99.99% 668151 usec, max 700231 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 1586 usec, 90% 209391 usec, 99% 389083 usec, 99.9% 408114 usec, 99.99% 668151 usec, max 700231 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 42 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 42 in 8969 msec =====
+===== DaCapo processed 100000 requests in 8967 msec, 11152 requests per second =====
+===== DaCapo tail latency, simple: 50% 662 usec, 90% 6401 usec, 99% 19983 usec, 99.9% 204207 usec, 99.99% 462128 usec, max 479955 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 1825 usec, 90% 8210 usec, 99% 23287 usec, 99.9% 204207 usec, 99.99% 462128 usec, max 479955 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 26934 usec, 90% 172046 usec, 99% 360554 usec, 99.9% 386738 usec, 99.99% 462128 usec, max 479955 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 43 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 43 in 8792 msec =====
+===== DaCapo processed 100000 requests in 8790 msec, 11376 requests per second =====
+===== DaCapo tail latency, simple: 50% 670 usec, 90% 6301 usec, 99% 20220 usec, 99.9% 186372 usec, 99.99% 318701 usec, max 343058 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 1803 usec, 90% 8593 usec, 99% 22966 usec, 99.9% 186372 usec, 99.99% 318701 usec, max 343058 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 1285 usec, 90% 40631 usec, 99% 135143 usec, 99.9% 186372 usec, 99.99% 318701 usec, max 343058 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 44 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 44 in 9144 msec =====
+===== DaCapo processed 100000 requests in 9141 msec, 10939 requests per second =====
+===== DaCapo tail latency, simple: 50% 648 usec, 90% 6377 usec, 99% 21941 usec, 99.9% 174180 usec, 99.99% 455323 usec, max 478823 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 1760 usec, 90% 9100 usec, 99% 26239 usec, 99.9% 174180 usec, 99.99% 455323 usec, max 478823 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 1489 usec, 90% 94132 usec, 99% 234194 usec, 99.9% 273351 usec, 99.99% 455323 usec, max 478823 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 45 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 45 in 9817 msec =====
+===== DaCapo processed 100000 requests in 9814 msec, 10189 requests per second =====
+===== DaCapo tail latency, simple: 50% 664 usec, 90% 7129 usec, 99% 23454 usec, 99.9% 148836 usec, 99.99% 454218 usec, max 487634 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 1924 usec, 90% 9093 usec, 99% 26857 usec, 99.9% 148836 usec, 99.99% 454218 usec, max 487634 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 4899 usec, 90% 315600 usec, 99% 542099 usec, 99.9% 558888 usec, 99.99% 587182 usec, max 605455 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 46 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 46 in 8726 msec =====
+===== DaCapo processed 100000 requests in 8724 msec, 11462 requests per second =====
+===== DaCapo tail latency, simple: 50% 658 usec, 90% 6200 usec, 99% 20097 usec, 99.9% 177171 usec, 99.99% 268512 usec, max 320125 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 1772 usec, 90% 7933 usec, 99% 23134 usec, 99.9% 177171 usec, 99.99% 268512 usec, max 320125 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 4862 usec, 90% 161856 usec, 99% 340800 usec, 99.9% 370499 usec, 99.99% 380796 usec, max 397152 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 47 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 47 in 8666 msec =====
+===== DaCapo processed 100000 requests in 8664 msec, 11542 requests per second =====
+===== DaCapo tail latency, simple: 50% 637 usec, 90% 6109 usec, 99% 19910 usec, 99.9% 183059 usec, 99.99% 414873 usec, max 428090 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 1837 usec, 90% 8844 usec, 99% 23890 usec, 99.9% 183059 usec, 99.99% 414873 usec, max 428090 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 9415 usec, 90% 287143 usec, 99% 415945 usec, 99.9% 443113 usec, 99.99% 453384 usec, max 475833 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 48 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 48 in 8934 msec =====
+===== DaCapo processed 100000 requests in 8929 msec, 11199 requests per second =====
+===== DaCapo tail latency, simple: 50% 640 usec, 90% 6157 usec, 99% 21174 usec, 99.9% 160096 usec, 99.99% 434925 usec, max 465806 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 1812 usec, 90% 8411 usec, 99% 23859 usec, 99.9% 160096 usec, 99.99% 434925 usec, max 465806 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 5903 usec, 90% 301602 usec, 99% 385923 usec, 99.9% 414652 usec, 99.99% 435811 usec, max 465806 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 49 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 49 in 8739 msec =====
+===== DaCapo processed 100000 requests in 8737 msec, 11445 requests per second =====
+===== DaCapo tail latency, simple: 50% 652 usec, 90% 6283 usec, 99% 20369 usec, 99.9% 210446 usec, 99.99% 280982 usec, max 325042 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 1793 usec, 90% 8449 usec, 99% 23744 usec, 99.9% 210446 usec, 99.99% 280982 usec, max 325042 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 43103 usec, 90% 314883 usec, 99% 462029 usec, 99.9% 478016 usec, 99.99% 489293 usec, max 505477 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 50 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 50 in 8975 msec =====
+===== DaCapo processed 100000 requests in 8972 msec, 11145 requests per second =====
+===== DaCapo tail latency, simple: 50% 651 usec, 90% 6448 usec, 99% 21261 usec, 99.9% 180587 usec, 99.99% 304655 usec, max 352577 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 1782 usec, 90% 8731 usec, 99% 24411 usec, 99.9% 180587 usec, 99.99% 304655 usec, max 352577 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 965 usec, 90% 29672 usec, 99% 192746 usec, 99.9% 235987 usec, 99.99% 304655 usec, max 352577 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 51 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 51 in 9591 msec =====
+===== DaCapo processed 100000 requests in 9589 msec, 10428 requests per second =====
+===== DaCapo tail latency, simple: 50% 644 usec, 90% 6868 usec, 99% 21933 usec, 99.9% 220529 usec, 99.99% 356658 usec, max 374568 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 1827 usec, 90% 9164 usec, 99% 24513 usec, 99.9% 220529 usec, 99.99% 356658 usec, max 374568 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 2972 usec, 90% 159828 usec, 99% 457847 usec, 99.9% 502676 usec, 99.99% 515646 usec, max 532145 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 52 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 52 in 8746 msec =====
+===== DaCapo processed 100000 requests in 8744 msec, 11436 requests per second =====
+===== DaCapo tail latency, simple: 50% 646 usec, 90% 6145 usec, 99% 20089 usec, 99.9% 213327 usec, 99.99% 447848 usec, max 464375 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 1833 usec, 90% 8924 usec, 99% 23129 usec, 99.9% 213327 usec, 99.99% 447848 usec, max 464375 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 2844 usec, 90% 166904 usec, 99% 411811 usec, 99.9% 431758 usec, 99.99% 451692 usec, max 471067 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 53 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 53 in 9096 msec =====
+===== DaCapo processed 100000 requests in 9094 msec, 10996 requests per second =====
+===== DaCapo tail latency, simple: 50% 643 usec, 90% 5924 usec, 99% 20278 usec, 99.9% 188946 usec, 99.99% 461292 usec, max 482315 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 1791 usec, 90% 8423 usec, 99% 23760 usec, 99.9% 188946 usec, 99.99% 461292 usec, max 482315 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 1665 usec, 90% 165155 usec, 99% 276304 usec, 99.9% 294137 usec, 99.99% 461292 usec, max 482315 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 54 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 54 in 8725 msec =====
+===== DaCapo processed 100000 requests in 8722 msec, 11465 requests per second =====
+===== DaCapo tail latency, simple: 50% 634 usec, 90% 5857 usec, 99% 20178 usec, 99.9% 197789 usec, 99.99% 532908 usec, max 573739 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 1872 usec, 90% 8311 usec, 99% 23652 usec, 99.9% 197789 usec, 99.99% 532908 usec, max 573739 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 845 usec, 90% 12364 usec, 99% 158347 usec, 99.9% 197789 usec, 99.99% 532908 usec, max 573739 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 55 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 55 in 8898 msec =====
+===== DaCapo processed 100000 requests in 8895 msec, 11242 requests per second =====
+===== DaCapo tail latency, simple: 50% 644 usec, 90% 6466 usec, 99% 21339 usec, 99.9% 194666 usec, 99.99% 279939 usec, max 311325 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 1919 usec, 90% 9183 usec, 99% 24891 usec, 99.9% 194666 usec, 99.99% 279939 usec, max 311325 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 1038 usec, 90% 24825 usec, 99% 103180 usec, 99.9% 194666 usec, 99.99% 279939 usec, max 311325 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 56 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 56 in 10105 msec =====
+===== DaCapo processed 100000 requests in 10103 msec, 9898 requests per second =====
+===== DaCapo tail latency, simple: 50% 643 usec, 90% 6946 usec, 99% 24959 usec, 99.9% 188751 usec, 99.99% 604645 usec, max 647173 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 2080 usec, 90% 10074 usec, 99% 28577 usec, 99.9% 188751 usec, 99.99% 604645 usec, max 647173 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 1924 usec, 90% 99816 usec, 99% 477172 usec, 99.9% 494483 usec, 99.99% 604645 usec, max 647173 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 57 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 57 in 8794 msec =====
+===== DaCapo processed 100000 requests in 8791 msec, 11375 requests per second =====
+===== DaCapo tail latency, simple: 50% 635 usec, 90% 5950 usec, 99% 19689 usec, 99.9% 181829 usec, 99.99% 583481 usec, max 610063 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 1785 usec, 90% 9001 usec, 99% 24329 usec, 99.9% 181829 usec, 99.99% 583481 usec, max 610063 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 923 usec, 90% 17639 usec, 99% 110465 usec, 99.9% 181829 usec, 99.99% 583481 usec, max 610063 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 58 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 58 in 9551 msec =====
+===== DaCapo processed 100000 requests in 9549 msec, 10472 requests per second =====
+===== DaCapo tail latency, simple: 50% 642 usec, 90% 6797 usec, 99% 22075 usec, 99.9% 265263 usec, 99.99% 410116 usec, max 438377 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 1798 usec, 90% 9200 usec, 99% 24397 usec, 99.9% 265263 usec, 99.99% 410116 usec, max 438377 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 1203 usec, 90% 119162 usec, 99% 253708 usec, 99.9% 293774 usec, 99.99% 410116 usec, max 438377 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 59 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 59 in 8960 msec =====
+===== DaCapo processed 100000 requests in 8957 msec, 11164 requests per second =====
+===== DaCapo tail latency, simple: 50% 655 usec, 90% 5834 usec, 99% 19611 usec, 99.9% 180654 usec, 99.99% 550739 usec, max 597071 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 1729 usec, 90% 7782 usec, 99% 21855 usec, 99.9% 180654 usec, 99.99% 550739 usec, max 597071 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 4008 usec, 90% 286246 usec, 99% 377121 usec, 99.9% 403061 usec, 99.99% 550739 usec, max 597071 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 60 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 60 in 9808 msec =====
+===== DaCapo processed 100000 requests in 9805 msec, 10198 requests per second =====
+===== DaCapo tail latency, simple: 50% 638 usec, 90% 6976 usec, 99% 23868 usec, 99.9% 233758 usec, 99.99% 354374 usec, max 392255 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 1755 usec, 90% 8915 usec, 99% 26102 usec, 99.9% 233758 usec, 99.99% 354374 usec, max 392255 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 2072 usec, 90% 144380 usec, 99% 478440 usec, 99.9% 515654 usec, 99.99% 526353 usec, max 574156 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 61 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 61 in 8647 msec =====
+===== DaCapo processed 100000 requests in 8644 msec, 11568 requests per second =====
+===== DaCapo tail latency, simple: 50% 635 usec, 90% 6069 usec, 99% 20484 usec, 99.9% 289567 usec, 99.99% 412115 usec, max 459394 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 1592 usec, 90% 8365 usec, 99% 23247 usec, 99.9% 289567 usec, 99.99% 412115 usec, max 459394 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 1286 usec, 90% 93321 usec, 99% 407265 usec, 99.9% 422053 usec, 99.99% 434025 usec, max 464739 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 62 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 62 in 9073 msec =====
+===== DaCapo processed 100000 requests in 9071 msec, 11024 requests per second =====
+===== DaCapo tail latency, simple: 50% 635 usec, 90% 7023 usec, 99% 20890 usec, 99.9% 242624 usec, 99.99% 361373 usec, max 394498 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 1888 usec, 90% 9931 usec, 99% 25635 usec, 99.9% 242624 usec, 99.99% 361373 usec, max 394498 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 2313 usec, 90% 99469 usec, 99% 205513 usec, 99.9% 242624 usec, 99.99% 361373 usec, max 394498 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 63 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 63 in 8384 msec =====
+===== DaCapo processed 100000 requests in 8382 msec, 11930 requests per second =====
+===== DaCapo tail latency, simple: 50% 636 usec, 90% 5686 usec, 99% 17489 usec, 99.9% 248325 usec, 99.99% 626163 usec, max 676041 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 1742 usec, 90% 7834 usec, 99% 22820 usec, 99.9% 248325 usec, 99.99% 626163 usec, max 677064 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 4078 usec, 90% 339913 usec, 99% 532063 usec, 99.9% 550511 usec, 99.99% 626163 usec, max 676041 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 64 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 64 in 8488 msec =====
+===== DaCapo processed 100000 requests in 8485 msec, 11785 requests per second =====
+===== DaCapo tail latency, simple: 50% 635 usec, 90% 5537 usec, 99% 17978 usec, 99.9% 225167 usec, 99.99% 745727 usec, max 786182 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 1665 usec, 90% 7707 usec, 99% 22722 usec, 99.9% 225167 usec, 99.99% 745727 usec, max 786182 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 1523 usec, 90% 213285 usec, 99% 380840 usec, 99.9% 403822 usec, 99.99% 745727 usec, max 786182 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 65 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 65 in 8205 msec =====
+===== DaCapo processed 100000 requests in 8202 msec, 12192 requests per second =====
+===== DaCapo tail latency, simple: 50% 621 usec, 90% 5700 usec, 99% 18547 usec, 99.9% 206625 usec, 99.99% 311669 usec, max 330064 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 1629 usec, 90% 7895 usec, 99% 21734 usec, 99.9% 206625 usec, 99.99% 311669 usec, max 330064 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 621 usec, 90% 5700 usec, 99% 18547 usec, 99.9% 206625 usec, 99.99% 311669 usec, max 330064 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 66 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 66 in 8854 msec =====
+===== DaCapo processed 100000 requests in 8851 msec, 11298 requests per second =====
+===== DaCapo tail latency, simple: 50% 623 usec, 90% 5924 usec, 99% 18471 usec, 99.9% 225784 usec, 99.99% 506657 usec, max 517922 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 1592 usec, 90% 8417 usec, 99% 22208 usec, 99.9% 225784 usec, 99.99% 506657 usec, max 517922 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 1015 usec, 90% 55340 usec, 99% 194563 usec, 99.9% 229316 usec, 99.99% 506657 usec, max 517922 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 67 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 67 in 9351 msec =====
+===== DaCapo processed 100000 requests in 9348 msec, 10697 requests per second =====
+===== DaCapo tail latency, simple: 50% 626 usec, 90% 7297 usec, 99% 23022 usec, 99.9% 227008 usec, 99.99% 468245 usec, max 479897 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 1902 usec, 90% 9970 usec, 99% 27405 usec, 99.9% 227008 usec, 99.99% 468245 usec, max 479897 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 2862 usec, 90% 219080 usec, 99% 314691 usec, 99.9% 337799 usec, 99.99% 468245 usec, max 479897 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 68 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 68 in 8790 msec =====
+===== DaCapo processed 100000 requests in 8787 msec, 11380 requests per second =====
+===== DaCapo tail latency, simple: 50% 660 usec, 90% 6545 usec, 99% 20911 usec, 99.9% 258771 usec, 99.99% 479348 usec, max 529668 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 1772 usec, 90% 8367 usec, 99% 22949 usec, 99.9% 258771 usec, 99.99% 479348 usec, max 529668 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 859 usec, 90% 14958 usec, 99% 228681 usec, 99.9% 260751 usec, 99.99% 479348 usec, max 529668 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 69 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 69 in 8534 msec =====
+===== DaCapo processed 100000 requests in 8531 msec, 11721 requests per second =====
+===== DaCapo tail latency, simple: 50% 656 usec, 90% 6333 usec, 99% 19273 usec, 99.9% 284930 usec, 99.99% 471029 usec, max 492946 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 1680 usec, 90% 7470 usec, 99% 20509 usec, 99.9% 284930 usec, 99.99% 471029 usec, max 492946 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 796 usec, 90% 10257 usec, 99% 98952 usec, 99.9% 284930 usec, 99.99% 471029 usec, max 492946 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 70 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 70 in 9511 msec =====
+===== DaCapo processed 100000 requests in 9509 msec, 10516 requests per second =====
+===== DaCapo tail latency, simple: 50% 619 usec, 90% 6206 usec, 99% 20658 usec, 99.9% 316305 usec, 99.99% 928640 usec, max 997426 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 1783 usec, 90% 9243 usec, 99% 25269 usec, 99.9% 316305 usec, 99.99% 928640 usec, max 1001968 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 1120 usec, 90% 72155 usec, 99% 167423 usec, 99.9% 316305 usec, 99.99% 928640 usec, max 997426 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 71 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 71 in 9424 msec =====
+===== DaCapo processed 100000 requests in 9421 msec, 10614 requests per second =====
+===== DaCapo tail latency, simple: 50% 640 usec, 90% 7430 usec, 99% 21317 usec, 99.9% 270434 usec, 99.99% 569688 usec, max 589885 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 1904 usec, 90% 9256 usec, 99% 23038 usec, 99.9% 270434 usec, 99.99% 569688 usec, max 589885 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 1547 usec, 90% 58117 usec, 99% 169559 usec, 99.9% 270434 usec, 99.99% 569688 usec, max 589885 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 72 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 72 in 8514 msec =====
+===== DaCapo processed 100000 requests in 8512 msec, 11748 requests per second =====
+===== DaCapo tail latency, simple: 50% 633 usec, 90% 5462 usec, 99% 17577 usec, 99.9% 236662 usec, 99.99% 776317 usec, max 814071 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 1631 usec, 90% 7677 usec, 99% 22213 usec, 99.9% 236662 usec, 99.99% 776317 usec, max 814071 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 118641 usec, 90% 442702 usec, 99% 526587 usec, 99.9% 543059 usec, 99.99% 776317 usec, max 814071 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 73 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 73 in 8101 msec =====
+===== DaCapo processed 100000 requests in 8091 msec, 12359 requests per second =====
+===== DaCapo tail latency, simple: 50% 629 usec, 90% 5726 usec, 99% 18584 usec, 99.9% 231634 usec, 99.99% 532584 usec, max 552247 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 1664 usec, 90% 8327 usec, 99% 23812 usec, 99.9% 231634 usec, 99.99% 532584 usec, max 552247 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 1420 usec, 90% 161553 usec, 99% 331854 usec, 99.9% 349398 usec, 99.99% 532584 usec, max 552247 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 74 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 74 in 10002 msec =====
+===== DaCapo processed 100000 requests in 10000 msec, 10000 requests per second =====
+===== DaCapo tail latency, simple: 50% 644 usec, 90% 7687 usec, 99% 22059 usec, 99.9% 297847 usec, 99.99% 739612 usec, max 771858 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 1970 usec, 90% 10415 usec, 99% 26020 usec, 99.9% 297847 usec, 99.99% 739612 usec, max 771858 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 1107 usec, 90% 38089 usec, 99% 125340 usec, 99.9% 297847 usec, 99.99% 739612 usec, max 771858 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 75 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 75 in 8928 msec =====
+===== DaCapo processed 100000 requests in 8926 msec, 11203 requests per second =====
+===== DaCapo tail latency, simple: 50% 657 usec, 90% 7040 usec, 99% 20610 usec, 99.9% 70928 usec, 99.99% 414134 usec, max 441695 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 1946 usec, 90% 9411 usec, 99% 23684 usec, 99.9% 72926 usec, 99.99% 414134 usec, max 441695 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 1653 usec, 90% 111072 usec, 99% 170451 usec, 99.9% 203504 usec, 99.99% 414134 usec, max 441695 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 76 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 76 in 8214 msec =====
+===== DaCapo processed 100000 requests in 8211 msec, 12178 requests per second =====
+===== DaCapo tail latency, simple: 50% 642 usec, 90% 5831 usec, 99% 18023 usec, 99.9% 58682 usec, 99.99% 822269 usec, max 848000 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 1746 usec, 90% 7318 usec, 99% 19595 usec, 99.9% 58937 usec, 99.99% 822269 usec, max 848000 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 120339 usec, 90% 465301 usec, 99% 611823 usec, 99.9% 635177 usec, 99.99% 822269 usec, max 848000 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 77 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 77 in 8278 msec =====
+===== DaCapo processed 100000 requests in 8276 msec, 12083 requests per second =====
+===== DaCapo tail latency, simple: 50% 633 usec, 90% 5846 usec, 99% 18405 usec, 99.9% 277511 usec, 99.99% 483970 usec, max 496442 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 1581 usec, 90% 7084 usec, 99% 19735 usec, 99.9% 277511 usec, 99.99% 483970 usec, max 496442 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 663 usec, 90% 6535 usec, 99% 29147 usec, 99.9% 277511 usec, 99.99% 483970 usec, max 496442 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 78 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 78 in 8156 msec =====
+===== DaCapo processed 100000 requests in 8153 msec, 12265 requests per second =====
+===== DaCapo tail latency, simple: 50% 624 usec, 90% 6080 usec, 99% 19288 usec, 99.9% 231857 usec, 99.99% 355418 usec, max 375321 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 1815 usec, 90% 8536 usec, 99% 23947 usec, 99.9% 231857 usec, 99.99% 355418 usec, max 375321 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 202107 usec, 90% 482461 usec, 99% 637003 usec, 99.9% 652671 usec, 99.99% 670914 usec, max 681896 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 79 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 79 in 8898 msec =====
+===== DaCapo processed 100000 requests in 8897 msec, 11239 requests per second =====
+===== DaCapo tail latency, simple: 50% 668 usec, 90% 6209 usec, 99% 20580 usec, 99.9% 301438 usec, 99.99% 646814 usec, max 820364 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 1766 usec, 90% 8974 usec, 99% 24731 usec, 99.9% 301438 usec, 99.99% 646814 usec, max 820364 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 2007 usec, 90% 137420 usec, 99% 316102 usec, 99.9% 339099 usec, 99.99% 646814 usec, max 820364 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 80 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 80 in 8724 msec =====
+===== DaCapo processed 100000 requests in 8722 msec, 11465 requests per second =====
+===== DaCapo tail latency, simple: 50% 638 usec, 90% 6435 usec, 99% 19784 usec, 99.9% 260678 usec, 99.99% 442052 usec, max 471001 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 1834 usec, 90% 8992 usec, 99% 22419 usec, 99.9% 260678 usec, 99.99% 442052 usec, max 471001 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 913 usec, 90% 17764 usec, 99% 81505 usec, 99.9% 260678 usec, 99.99% 442052 usec, max 471001 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 81 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 81 in 8829 msec =====
+===== DaCapo processed 100000 requests in 8827 msec, 11328 requests per second =====
+===== DaCapo tail latency, simple: 50% 660 usec, 90% 6102 usec, 99% 18926 usec, 99.9% 289265 usec, 99.99% 652249 usec, max 678563 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 1842 usec, 90% 8519 usec, 99% 21290 usec, 99.9% 289265 usec, 99.99% 652249 usec, max 678563 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 1939 usec, 90% 274077 usec, 99% 527449 usec, 99.9% 554625 usec, 99.99% 652249 usec, max 678563 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 82 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 82 in 8250 msec =====
+===== DaCapo processed 100000 requests in 8248 msec, 12124 requests per second =====
+===== DaCapo tail latency, simple: 50% 652 usec, 90% 5735 usec, 99% 17637 usec, 99.9% 60586 usec, 99.99% 735192 usec, max 755474 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 1770 usec, 90% 8266 usec, 99% 21703 usec, 99.9% 62514 usec, 99.99% 735192 usec, max 755474 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 9341 usec, 90% 353031 usec, 99% 517145 usec, 99.9% 531636 usec, 99.99% 735192 usec, max 755474 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 83 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 83 in 9540 msec =====
+===== DaCapo processed 100000 requests in 9537 msec, 10485 requests per second =====
+===== DaCapo tail latency, simple: 50% 698 usec, 90% 5497 usec, 99% 16964 usec, 99.9% 327098 usec, 99.99% 1527764 usec, max 1554411 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 1744 usec, 90% 7273 usec, 99% 19351 usec, 99.9% 327098 usec, 99.99% 1527764 usec, max 1554411 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 119104 usec, 90% 485208 usec, 99% 673952 usec, 99.9% 689093 usec, 99.99% 1527764 usec, max 1554411 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 84 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 84 in 8401 msec =====
+===== DaCapo processed 100000 requests in 8398 msec, 11907 requests per second =====
+===== DaCapo tail latency, simple: 50% 638 usec, 90% 6374 usec, 99% 19206 usec, 99.9% 271061 usec, 99.99% 394400 usec, max 421305 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 1715 usec, 90% 7836 usec, 99% 21127 usec, 99.9% 271061 usec, 99.99% 394400 usec, max 421305 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 1033 usec, 90% 57846 usec, 99% 297827 usec, 99.9% 319555 usec, 99.99% 394400 usec, max 421305 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 85 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 85 in 9388 msec =====
+===== DaCapo processed 100000 requests in 9385 msec, 10655 requests per second =====
+===== DaCapo tail latency, simple: 50% 629 usec, 90% 7582 usec, 99% 22310 usec, 99.9% 254377 usec, 99.99% 306011 usec, max 312474 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 1828 usec, 90% 10089 usec, 99% 25278 usec, 99.9% 254377 usec, 99.99% 306011 usec, max 312474 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 1035 usec, 90% 36171 usec, 99% 135566 usec, 99.9% 254377 usec, 99.99% 306011 usec, max 312474 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 86 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 86 in 8667 msec =====
+===== DaCapo processed 100000 requests in 8665 msec, 11540 requests per second =====
+===== DaCapo tail latency, simple: 50% 660 usec, 90% 6029 usec, 99% 20797 usec, 99.9% 213976 usec, 99.99% 558881 usec, max 590029 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 1871 usec, 90% 8315 usec, 99% 24261 usec, 99.9% 213976 usec, 99.99% 558881 usec, max 590029 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 6951 usec, 90% 322870 usec, 99% 538927 usec, 99.9% 556703 usec, 99.99% 566072 usec, max 590029 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 87 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 87 in 8374 msec =====
+===== DaCapo processed 100000 requests in 8371 msec, 11946 requests per second =====
+===== DaCapo tail latency, simple: 50% 626 usec, 90% 6067 usec, 99% 19043 usec, 99.9% 229321 usec, 99.99% 372561 usec, max 445488 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 1823 usec, 90% 8515 usec, 99% 22279 usec, 99.9% 229321 usec, 99.99% 372561 usec, max 445488 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 631 usec, 90% 6125 usec, 99% 19043 usec, 99.9% 229321 usec, 99.99% 372561 usec, max 445488 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 88 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 88 in 8914 msec =====
+===== DaCapo processed 100000 requests in 8912 msec, 11220 requests per second =====
+===== DaCapo tail latency, simple: 50% 636 usec, 90% 7152 usec, 99% 21702 usec, 99.9% 231060 usec, 99.99% 295911 usec, max 306560 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 1862 usec, 90% 9603 usec, 99% 24375 usec, 99.9% 231060 usec, 99.99% 295911 usec, max 306560 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 11703 usec, 90% 213844 usec, 99% 294339 usec, 99.9% 310342 usec, 99.99% 322502 usec, max 335174 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 89 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 89 in 9337 msec =====
+===== DaCapo processed 100000 requests in 9331 msec, 10716 requests per second =====
+===== DaCapo tail latency, simple: 50% 630 usec, 90% 7016 usec, 99% 20445 usec, 99.9% 290795 usec, 99.99% 469102 usec, max 489886 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 2076 usec, 90% 9852 usec, 99% 25107 usec, 99.9% 290795 usec, 99.99% 469102 usec, max 489886 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 1168 usec, 90% 67167 usec, 99% 178451 usec, 99.9% 290795 usec, 99.99% 469102 usec, max 489886 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 90 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 90 in 8247 msec =====
+===== DaCapo processed 100000 requests in 8244 msec, 12130 requests per second =====
+===== DaCapo tail latency, simple: 50% 612 usec, 90% 6120 usec, 99% 19790 usec, 99.9% 251932 usec, 99.99% 393762 usec, max 468431 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 1667 usec, 90% 8021 usec, 99% 21436 usec, 99.9% 251932 usec, 99.99% 393762 usec, max 468431 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 1766 usec, 90% 141249 usec, 99% 374325 usec, 99.9% 402419 usec, 99.99% 417025 usec, max 468431 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 91 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 91 in 9005 msec =====
+===== DaCapo processed 100000 requests in 9002 msec, 11108 requests per second =====
+===== DaCapo tail latency, simple: 50% 648 usec, 90% 6627 usec, 99% 21194 usec, 99.9% 233697 usec, 99.99% 413128 usec, max 437639 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 2008 usec, 90% 9613 usec, 99% 24467 usec, 99.9% 233697 usec, 99.99% 413128 usec, max 437639 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 871 usec, 90% 13677 usec, 99% 209880 usec, 99.9% 241208 usec, 99.99% 413128 usec, max 437639 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 92 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 92 in 9266 msec =====
+===== DaCapo processed 100000 requests in 9263 msec, 10795 requests per second =====
+===== DaCapo tail latency, simple: 50% 652 usec, 90% 7102 usec, 99% 21471 usec, 99.9% 271725 usec, 99.99% 454327 usec, max 509401 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 1893 usec, 90% 9750 usec, 99% 25505 usec, 99.9% 271725 usec, 99.99% 454327 usec, max 509401 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 1433 usec, 90% 86794 usec, 99% 210834 usec, 99.9% 271725 usec, 99.99% 454327 usec, max 509401 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 93 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 93 in 9530 msec =====
+===== DaCapo processed 100000 requests in 9527 msec, 10496 requests per second =====
+===== DaCapo tail latency, simple: 50% 632 usec, 90% 7568 usec, 99% 22367 usec, 99.9% 241716 usec, 99.99% 310878 usec, max 334213 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 1946 usec, 90% 10302 usec, 99% 24818 usec, 99.9% 241716 usec, 99.99% 310878 usec, max 334213 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 1200 usec, 90% 115305 usec, 99% 253441 usec, 99.9% 273013 usec, 99.99% 310878 usec, max 334213 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 94 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 94 in 8779 msec =====
+===== DaCapo processed 100000 requests in 8778 msec, 11392 requests per second =====
+===== DaCapo tail latency, simple: 50% 667 usec, 90% 6293 usec, 99% 20653 usec, 99.9% 230886 usec, 99.99% 462680 usec, max 480185 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 1872 usec, 90% 8619 usec, 99% 24463 usec, 99.9% 230886 usec, 99.99% 462680 usec, max 480185 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 705 usec, 90% 7293 usec, 99% 27756 usec, 99.9% 230886 usec, 99.99% 462680 usec, max 480185 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 95 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 95 in 8304 msec =====
+===== DaCapo processed 100000 requests in 8290 msec, 12062 requests per second =====
+===== DaCapo tail latency, simple: 50% 633 usec, 90% 6048 usec, 99% 20143 usec, 99.9% 90146 usec, 99.99% 599150 usec, max 627149 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 1689 usec, 90% 8468 usec, 99% 22989 usec, 99.9% 90146 usec, 99.99% 599150 usec, max 627149 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 1592 usec, 90% 206536 usec, 99% 325855 usec, 99.9% 343312 usec, 99.99% 599150 usec, max 627149 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 96 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 96 in 8592 msec =====
+===== DaCapo processed 100000 requests in 8590 msec, 11641 requests per second =====
+===== DaCapo tail latency, simple: 50% 662 usec, 90% 6246 usec, 99% 19546 usec, 99.9% 82145 usec, 99.99% 734670 usec, max 755351 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 1924 usec, 90% 8938 usec, 99% 23877 usec, 99.9% 82145 usec, 99.99% 734670 usec, max 755351 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 1418 usec, 90% 269599 usec, 99% 318960 usec, 99.9% 343981 usec, 99.99% 734670 usec, max 755351 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 97 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 97 in 8812 msec =====
+===== DaCapo processed 100000 requests in 8809 msec, 11352 requests per second =====
+===== DaCapo tail latency, simple: 50% 659 usec, 90% 6327 usec, 99% 19789 usec, 99.9% 286154 usec, 99.99% 481890 usec, max 506010 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 1746 usec, 90% 9394 usec, 99% 25379 usec, 99.9% 286154 usec, 99.99% 481890 usec, max 506010 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 1947 usec, 90% 158069 usec, 99% 302654 usec, 99.9% 321399 usec, 99.99% 481890 usec, max 506010 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 98 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 98 in 8782 msec =====
+===== DaCapo processed 100000 requests in 8779 msec, 11390 requests per second =====
+===== DaCapo tail latency, simple: 50% 667 usec, 90% 6643 usec, 99% 20201 usec, 99.9% 262050 usec, 99.99% 490785 usec, max 512336 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 1786 usec, 90% 8211 usec, 99% 21842 usec, 99.9% 262050 usec, 99.99% 490785 usec, max 512336 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 1058 usec, 90% 44929 usec, 99% 263916 usec, 99.9% 280579 usec, 99.99% 490785 usec, max 512336 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 99 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 99 in 9407 msec =====
+===== DaCapo processed 100000 requests in 9404 msec, 10633 requests per second =====
+===== DaCapo tail latency, simple: 50% 628 usec, 90% 7189 usec, 99% 23275 usec, 99.9% 256439 usec, 99.99% 311013 usec, max 331499 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 1882 usec, 90% 9821 usec, 99% 25811 usec, 99.9% 256439 usec, 99.99% 311013 usec, max 331499 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 1549 usec, 90% 105570 usec, 99% 229132 usec, 99.9% 258620 usec, 99.99% 311013 usec, max 331499 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 100 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 100 in 8753 msec =====
+===== DaCapo processed 100000 requests in 8750 msec, 11428 requests per second =====
+===== DaCapo tail latency, simple: 50% 646 usec, 90% 6507 usec, 99% 21657 usec, 99.9% 222718 usec, 99.99% 282314 usec, max 294833 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 1863 usec, 90% 8261 usec, 99% 24471 usec, 99.9% 222718 usec, 99.99% 282314 usec, max 294833 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 2625 usec, 90% 179594 usec, 99% 330182 usec, 99.9% 362885 usec, 99.99% 374204 usec, max 393677 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 101 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 101 in 8671 msec =====
+===== DaCapo processed 100000 requests in 8669 msec, 11535 requests per second =====
+===== DaCapo tail latency, simple: 50% 662 usec, 90% 6241 usec, 99% 20129 usec, 99.9% 196273 usec, 99.99% 534826 usec, max 575801 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 1828 usec, 90% 8285 usec, 99% 23565 usec, 99.9% 196273 usec, 99.99% 534826 usec, max 575801 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 137477 usec, 90% 395579 usec, 99% 556819 usec, 99.9% 579806 usec, 99.99% 588124 usec, max 599023 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 102 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 102 in 8661 msec =====
+===== DaCapo processed 100000 requests in 8659 msec, 11548 requests per second =====
+===== DaCapo tail latency, simple: 50% 661 usec, 90% 5977 usec, 99% 20024 usec, 99.9% 193264 usec, 99.99% 448373 usec, max 531165 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 1781 usec, 90% 7907 usec, 99% 22976 usec, 99.9% 193264 usec, 99.99% 448373 usec, max 531165 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 1961 usec, 90% 178899 usec, 99% 280531 usec, 99.9% 307346 usec, 99.99% 448373 usec, max 531165 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 103 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 103 in 8736 msec =====
+===== DaCapo processed 100000 requests in 8734 msec, 11449 requests per second =====
+===== DaCapo tail latency, simple: 50% 674 usec, 90% 5947 usec, 99% 18731 usec, 99.9% 225650 usec, 99.99% 609326 usec, max 648601 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 1806 usec, 90% 7771 usec, 99% 21483 usec, 99.9% 225650 usec, 99.99% 609326 usec, max 648601 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 3327 usec, 90% 230100 usec, 99% 317171 usec, 99.9% 345615 usec, 99.99% 609326 usec, max 648601 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting warmup 104 =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 completed warmup 104 in 8760 msec =====
+===== DaCapo processed 100000 requests in 8758 msec, 11418 requests per second =====
+===== DaCapo tail latency, simple: 50% 663 usec, 90% 6209 usec, 99% 20082 usec, 99.9% 218887 usec, 99.99% 422862 usec, max 502534 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 1840 usec, 90% 8680 usec, 99% 23405 usec, 99.9% 218887 usec, 99.99% 422862 usec, max 502534 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 1860 usec, 90% 120311 usec, 99% 232591 usec, 99.9% 258658 usec, 99.99% 422862 usec, max 502534 usec, measured over 100000 events =====
+Resetting database to initial state....................
+===== DaCapo unknown h2 starting =====
+Starting 100000 requests...
+5%10%15%20%25%30%35%40%45%50%55%60%65%70%75%80%85%90%95%100%
+Completed requests
+	Stock level .............   3973 ( 4.0%)
+	Order status by name ....   2361 ( 2.4%)
+	Order status by ID ......   1609 ( 1.6%)
+	Payment by name .........  25847 (25.8%)
+	Payment by ID ...........  17220 (17.2%)
+	Delivery schedule .......   4029 ( 4.0%)
+	New order ...............  44509 (44.5%)
+	New order rollback ......    452 ( 0.5%)
+===== DaCapo unknown h2 PASSED in 8808 msec =====
+===== DaCapo processed 100000 requests in 8805 msec, 11357 requests per second =====
+===== DaCapo tail latency, simple: 50% 640 usec, 90% 6062 usec, 99% 19155 usec, 99.9% 186983 usec, 99.99% 478573 usec, max 489231 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered 100ms smoothing: 50% 1693 usec, 90% 8384 usec, 99% 26878 usec, 99.9% 186983 usec, 99.99% 478573 usec, max 489231 usec, measured over 100000 events =====
+===== DaCapo tail latency, metered full smoothing: 50% 1186 usec, 90% 40293 usec, 99% 235688 usec, 99.9% 254185 usec, 99.99% 478573 usec, max 489231 usec, measured over 100000 events =====
+Resetting database to initial state....................

@@ -1,0 +1,74 @@
+[
+    {
+        "benchmark": "apparat",
+        "stdev(%)": 8.515859025199653,
+        "RMAD(%)": 5.649286205053821,
+        "avg time": 6371.51,
+        "median": 6549.5,
+        "normal distribution": false
+    },
+    {
+        "benchmark": "factorie",
+        "stdev(%)": 4.0458963779984245,
+        "RMAD(%)": 2.0340002003941082,
+        "avg time": 14836.64,
+        "median": 14970.5,
+        "normal distribution": false
+    },
+    {
+        "benchmark": "kiama",
+        "stdev(%)": 74.52103220259106,
+        "RMAD(%)": 4.218362282878412,
+        "avg time": 307.69,
+        "median": 201.5,
+        "normal distribution": false
+    },
+    {
+        "benchmark": "scalac",
+        "stdev(%)": 47.87018187941691,
+        "RMAD(%)": 5.5756698044895,
+        "avg time": 1004.9,
+        "median": 690.5,
+        "normal distribution": false
+    },
+    {
+        "benchmark": "scaladoc",
+        "stdev(%)": 45.19049215475152,
+        "RMAD(%)": 1.8779342723004695,
+        "avg time": 931.11,
+        "median": 639.0,
+        "normal distribution": false
+    },
+    {
+        "benchmark": "scalap",
+        "stdev(%)": 57.870459496882766,
+        "RMAD(%)": 1.1904761904761905,
+        "avg time": 122.67,
+        "median": 84.0,
+        "normal distribution": false
+    },
+    {
+        "benchmark": "scalariform",
+        "stdev(%)": 59.11818832324705,
+        "RMAD(%)": 0.8032128514056224,
+        "avg time": 364.75,
+        "median": 249.0,
+        "normal distribution": false
+    },
+    {
+        "benchmark": "scalaxb",
+        "stdev(%)": 59.811136006764556,
+        "RMAD(%)": 2.4,
+        "avg time": 270.03,
+        "median": 187.5,
+        "normal distribution": false
+    },
+    {
+        "benchmark": "tmt",
+        "stdev(%)": 8.964139326417127,
+        "RMAD(%)": 6.824544147688583,
+        "avg time": 6547.38,
+        "median": 6608.5,
+        "normal distribution": false
+    }
+]

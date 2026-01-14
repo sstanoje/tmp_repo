@@ -1,0 +1,74 @@
+[
+    {
+        "benchmark": "apparat",
+        "stdev(%)": 2.2348487779282493,
+        "RMAD(%)": 1.2399799599198398,
+        "avg time": 3998.33,
+        "median": 3992.0,
+        "normal distribution": false
+    },
+    {
+        "benchmark": "factorie",
+        "stdev(%)": 3.433167954429279,
+        "RMAD(%)": 2.906411502839892,
+        "avg time": 9782.98,
+        "median": 9771.5,
+        "normal distribution": false
+    },
+    {
+        "benchmark": "kiama",
+        "stdev(%)": 41.327609511716545,
+        "RMAD(%)": 2.7777777777777777,
+        "avg time": 190.64,
+        "median": 144.0,
+        "normal distribution": false
+    },
+    {
+        "benchmark": "scalac",
+        "stdev(%)": 28.26230302664674,
+        "RMAD(%)": 3.7453183520599254,
+        "avg time": 668.49,
+        "median": 534.0,
+        "normal distribution": false
+    },
+    {
+        "benchmark": "scaladoc",
+        "stdev(%)": 26.602911867983774,
+        "RMAD(%)": 1.417004048582996,
+        "avg time": 623.9,
+        "median": 494.0,
+        "normal distribution": false
+    },
+    {
+        "benchmark": "scalap",
+        "stdev(%)": 26.66837079734271,
+        "RMAD(%)": 1.7857142857142856,
+        "avg time": 67.03,
+        "median": 56.0,
+        "normal distribution": false
+    },
+    {
+        "benchmark": "scalariform",
+        "stdev(%)": 31.015012380229344,
+        "RMAD(%)": 1.1695906432748537,
+        "avg time": 211.43,
+        "median": 171.0,
+        "normal distribution": false
+    },
+    {
+        "benchmark": "scalaxb",
+        "stdev(%)": 26.933801730814682,
+        "RMAD(%)": 2.380952380952381,
+        "avg time": 203.55,
+        "median": 168.0,
+        "normal distribution": false
+    },
+    {
+        "benchmark": "tmt",
+        "stdev(%)": 1.81514277617124,
+        "RMAD(%)": 0.9569377990430622,
+        "avg time": 3975.21,
+        "median": 3971.0,
+        "normal distribution": false
+    }
+]

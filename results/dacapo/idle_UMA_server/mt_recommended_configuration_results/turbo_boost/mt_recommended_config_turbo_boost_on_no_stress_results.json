@@ -1,0 +1,26 @@
+[
+    {
+        "benchmark": "lusearch",
+        "stdev(%)": 7.01604018657807,
+        "RMAD(%)": 2.3008849557522124,
+        "avg time": 4989.941463414634,
+        "median": 5085.0,
+        "normal distribution": false
+    },
+    {
+        "benchmark": "sunflow",
+        "stdev(%)": 1.8966265062849454,
+        "RMAD(%)": 0.9511228533685601,
+        "avg time": 5655.34,
+        "median": 5677.5,
+        "normal distribution": false
+    },
+    {
+        "benchmark": "xalan",
+        "stdev(%)": 0.463148689181953,
+        "RMAD(%)": 0.27932960893854747,
+        "avg time": 896.43,
+        "median": 895.0,
+        "normal distribution": false
+    }
+]
